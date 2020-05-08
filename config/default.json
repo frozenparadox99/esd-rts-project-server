@@ -1,0 +1,5 @@
+{
+  "DATABASE_PASSWORD": 1234567890,
+  "DATABASE_USER": "zaki",
+  "mongoURI": "mongodb+srv://zaki:1234567890@cluster0-if4o9.mongodb.net/test?retryWrites=true&w=majority"
+}
