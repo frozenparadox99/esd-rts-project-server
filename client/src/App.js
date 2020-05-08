@@ -1,9 +1,10 @@
 import React from "react";
+import ReactSpeedometer from "react-d3-speedometer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the app</h1>
+      <ReactSpeedometer />
     </div>
   );
 }
