@@ -6,7 +6,6 @@ let temperature = "Nothing";
 let humidity = "Nothing";
 
 exports.getOverview = (req, res, next) => {
-  console.log("Here");
   return res.status(200).json({
     title: "All Data",
     motorDirec: motorDirec,
