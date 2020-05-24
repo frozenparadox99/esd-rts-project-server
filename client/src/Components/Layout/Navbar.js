@@ -11,18 +11,18 @@ const Navbar = () => {
         <Logo className="logo" />
       </Link>
       <div className="options">
-        <Link className="option" to="/motor">
+        <Link className="option" to="/">
           Motor
         </Link>
-        <Link className="option" to="/temperature">
+        <Link className="option" to="/">
           Temperature
         </Link>
 
-        <Link className="option" to="/led">
+        <Link className="option" to="/">
           LED Count
         </Link>
 
-        <Link className="option" to="/buzzer">
+        <Link className="option" to="/">
           Buzzer
         </Link>
       </div>
