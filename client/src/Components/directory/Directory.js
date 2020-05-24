@@ -4,25 +4,28 @@ import MenuItem from "../menu-item/MenuItem";
 
 import "./directory.styles.scss";
 
-const sections = {
+let sections = {
   sections: [
     {
       title: "humidity",
       imageUrl: "https://i.imgur.com/2uFCPou.jpg",
       id: 1,
       linkUrl: "/",
+      value: 0,
     },
     {
       title: "buzzer",
       imageUrl: "https://i.imgur.com/wYO9Nim.jpg",
       id: 2,
       linkUrl: "/",
+      value: 0,
     },
     {
-      title: "temperature",
+      title: "temp",
       imageUrl: "https://i.imgur.com/q2wanwX.jpg",
       id: 3,
       linkUrl: "/",
+      value: 0,
     },
     {
       title: "Motor",
@@ -30,6 +33,7 @@ const sections = {
       size: "large",
       id: 4,
       linkUrl: "/",
+      value: 0,
     },
     {
       title: "LED",
@@ -37,6 +41,7 @@ const sections = {
       size: "large",
       id: 5,
       linkUrl: "/",
+      value: 0,
     },
   ],
 };
